@@ -4,8 +4,9 @@
 ***********************************************/
 
 var express = require('express'); // Do Not Edit
+var helmet = require('helmet');
 var app = express();              // Do Not Edit
-
+app.use(helmet())
 // ----
 
 /** - Challenges - *
